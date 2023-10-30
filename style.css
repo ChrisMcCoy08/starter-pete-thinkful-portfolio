@@ -8,6 +8,7 @@ body {
   padding: 40px;
 }
 
+
 /* Headings */
 h1,
 h2,
@@ -18,8 +19,54 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav, h1{
+  display: flex;
+}
+
+h1{
+  font-size: 25px;
+}
+
+/* About section */
+.artist-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  display: flex;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content p, ul{
+  text-align: left;
+}
+
+.text-content p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+/* Portfolio section */
+.portfolio-section{
+  display: flex;
+}
+
+.portfolio-section p{
+  font-size: 14px;
   text-align: center;
 }
+
 
 /* Containers */
 div {
